@@ -40,11 +40,39 @@ To reduce commute delays and urban traffic by:
 | Time & Geometry    | For delay and distance calculations         |
 
 ---
+## 📂 Project Structure
 
-## 🔧 Installation
+traffic-predictor/
+├── detect_congestion.py      # Core detection logic
+├── maps_api.py               # Google Maps route suggestion
+├── config.py                 # API keys and settings
+├── templates/                # Web UI (if using Flask)
+├── app.py                    # Streamlit or Flask dashboard
+├── videos/                   # Sample traffic videos
+├── requirements.txt
+└── README.md
 
-### 1. Clone the Repository
 
-```bash
-git clone https://github.com/Hanush0112/traffic-predictor.git
-cd traffic-predictor
+
+## 🔄 Sample Flow
+Input:
+
+Location A to Location B
+
+Traffic camera shows jam at Junction X
+
+System Response:
+
+Flags congestion at Junction X
+
+Calls Google Maps API
+
+Returns 1–2 alternate routes with ETA and shows them to user
+## 🔮 Future Improvements
+Real-time vehicle counting with YOLO
+
+Push notifications to Google Maps/Android App
+
+Integration with traffic signal control
+
+Cloud deployment for smart city dashboards
