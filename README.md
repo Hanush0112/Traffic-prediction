@@ -35,7 +35,7 @@ To reduce commute delays and urban traffic by:
 | Python             | Core programming                            |
 | OpenCV             | Vehicle detection & virtual boundary logic  |
 | Google Maps API    | Route navigation and traffic data           |
-| Flask / Streamlit  | Web interface (optional)                    |
+| Streamlit  | Web interface (optional)                            |
 | NumPy              | Frame operations                            |
 | Time & Geometry    | For delay and distance calculations         |
 
